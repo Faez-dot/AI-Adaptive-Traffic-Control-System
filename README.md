@@ -90,5 +90,4 @@ The system is structured into four functional layers:
 
 ---
 **Course:** AI2002: Artificial Intelligence  
-**Assignment:** 1 (Proposal & Implementation)  
-**Submission Date:** 1st March 2026
+
