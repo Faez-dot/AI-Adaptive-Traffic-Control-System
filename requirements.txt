@@ -1,0 +1,5 @@
+# AI Adaptive Traffic Control System Dependencies
+# Minimum required Python version: 3.8+ (as specified in README)
+
+# GUI and Visualization
+streamlit>=1.32.0
