@@ -26,13 +26,19 @@ pip install streamlit
 ### 2.3 Running the Application
 Navigate to the project directory and execute:
 ```bash
-python -m streamlit run main.py
+python -m streamlit run app.py
 ```
 *The application will automatically launch in your default web browser (typically at http://localhost:8501).*
 
 ---
 
-## 🏎️ 3. Sample Demonstrations
+## 🏗️ 3. Project Structure
+The project is organized into a modular structure for scalability:
+- `app.py`: Main entry point and Streamlit UI layout.
+- `src/logic/`: Core A* algorithm and simulation engine.
+- `src/ui/`: Reusable UI components and visualizers.
+- `src/analytics/`: Performance comparison and metrics logic.
+- `src/config/`: Global styles and page configurations.
 
 ### 3.1 Normal Congestion Scenario
 *   **Input:** Set Mode to `Normal` and Density slider to a medium value (e.g., `5`).
